@@ -13,6 +13,8 @@ h1 {
 }
 h3 {
   font-family: 'Cinzel', serif;
+  margin-top: 60px;
+  margin-bottom: 30px;
 }
 p {
   font-family: 'Lato', sans-serif;
@@ -76,8 +78,32 @@ hr {
   height: 1px;
   width: 100%;
   background: rgba(0, 0, 0, 0.5);
-  margin-bottom: 50px;
 }
+
+/* Sections */
+
+.sections {
+  padding-bottom: 60px;
+}
+.description {
+  font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
+  letter-spacing: normal;
+}
+#awards-honors {
+  background: url("images/background.png") no-repeat fixed center;
+}
+.cv-screenshot {
+  width: 30%;
+  margin-bottom: 20px;
+  border-color: #E3E3E3;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 5px;
+}
+/*#contact {
+  background: url("images/background2.png") no-repeat fixed center;
+  background-size: cover;
+}*/
 
 /* Forms */
 
@@ -105,7 +131,7 @@ label {
   background-color: transparent;
   border: 2px solid #65B0ED;
   color: #65B0ED;
-  outline:none !important
+  outline:none !important;
 }
 .btn-primary:hover {
   color: white;
