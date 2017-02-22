@@ -191,9 +191,11 @@ and (max-device-width : 736px) {
   }
   h1 {
     color: white;
+    font-size: 40px;
   }
   .sub-header {
     color: white;
+    font-size: 14px;
   }
   .nav-link-dropdown {
     color: black;
