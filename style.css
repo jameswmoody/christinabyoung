@@ -146,7 +146,7 @@ label {
   background-color: transparent;
   border: 2px solid #65B0ED;
   color: #65B0ED;
-  outline:none !important;
+  outline: none !important;
 }
 .btn-primary:hover {
   color: white;
@@ -228,7 +228,31 @@ and (max-device-width : 1024px)  {
   .headline {
     position: absolute;
     top: 70vh;
+    left: 18vh;
     color: white;
+  }
+  h1 {
+    font-size: 40px;
+  }
+  .navbar-default {
+    background-color: black !important;
+  }
+  .nav-link {
+    color: white !important;
+  }
+  .header-img {
+    float: right;
+  }
+}
+
+@media only screen
+and (min-device-width : 1024px)
+and (max-device-width : 1366px)
+and (orientation : portrait) {
+  .headline {
+    position: absolute;
+    top: 70vh;
+    left: 23vh;
   }
 }
 
@@ -240,7 +264,7 @@ and (max-device-width : 1024px)
 and (orientation : landscape) {
   .headline {
     position: absolute;
-    top: 35vh;
+    top:45vh;
     left: 30px;
     text-align: center;
     color: #777;
