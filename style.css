@@ -111,6 +111,7 @@ hr {
 
 #awards-honors {
   background: url("images/background.png") no-repeat fixed center;
+  background-size: 100vw;
 }
 .cv-screenshot {
   width: 30%;
@@ -199,6 +200,9 @@ and (max-device-width : 736px) {
   }
   .nav-link-dropdown {
     color: black;
+  }
+  #awards-honors {
+    background-size: 150vw;
   }
 }
 
