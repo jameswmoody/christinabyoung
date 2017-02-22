@@ -61,6 +61,11 @@ p {
 .nav-link-dropdown {
   margin-right: 15px;
 }
+.dropdown-menu {
+  margin-right: 15px;
+  min-width: 107px;
+  border: none;
+}
 
 /* Header */
 
